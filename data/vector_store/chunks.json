@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_id": "Benefits_Overview.csv::1",
+    "document_name": "Benefits_Overview.csv",
+    "page_number": null,
+    "chunk_number": 1,
+    "text": "Benefit: Health Insurance | Eligibility: All full-time employees | Details: Covers employee and up to 3 dependents; includes dental Benefit: Annual Leave | Eligibility: All full-time employees | Details: 14 days per year accrued monthly Benefit: Sick Leave | Eligibility: All full-time employees | Details: 10 paid days per year; medical certificate required after 2 days Benefit: Maternity Leave | Eligibility: Female employees | Details: 70 days fully paid Benefit: Paternity Leave | Eligibility: Male employees | Details: 3 days paid within one month of birth Benefit: Training Budget | Eligibility: All employees after probation | Details: 500 JOD per year for courses and certifications Benefit: Transportation Allowance | Eligibility: All employees | Details: 50 JOD per month Benefit: Remote Work | Eligibility: All employees | Details: Up to 2 days per week with manager approval Benefit: Performance Bonus | Eligibility: All employees | Details: Up to 15% of annual base salary based on performance review"
+  },
+  {
+    "chunk_id": "Employee_Handbook.md::1",
+    "document_name": "Employee_Handbook.md",
+    "page_number": null,
+    "chunk_number": 1,
+    "text": "# Employee Handbook ## Annual Leave and Vacation Policy Employees receive 14 annual leave days per calendar year, accrued monthly at a rate of 1.17 days per month. Unused leave may be carried over to the next year up to a maximum of 5 days. Leave requests must be submitted through the HR portal at least 5 working days in advance and require manager approval. ## Sick Leave Employees are entitled to 10 paid sick days per year. A medical certificate is required for absences longer than 2 consecutive days. ## Maternity and Paternity Leave Female employees are entitled to 70 days of fully paid maternity leave. Male employees are entitled to 3 days of paid paternity leave, to be taken within one month of the child's birth. ## Remote Work Policy Employees may work remotely up to 2 days per week, subject to manager approval and team coverage requirements. Fully remote arrangements require VP-level sign-off. ## Working Hours Standard working hours are 9:00 AM to 5:00 PM, Sunday to Thursday, with a one-hour lunch break. Flexible start times between 8:00 AM and 10:00 AM are permitted. ## Overtime Policy Overtime is compensated at 1.5x the regular hourly rate for hours worked beyond the standard 40-hour work week. Overtime must be pre-approved by a direct manager."
+  },
+  {
+    "chunk_id": "Expense_Reimbursement_Policy.pdf::1",
+    "document_name": "Expense_Reimbursement_Policy.pdf",
+    "page_number": 1,
+    "chunk_number": 1,
+    "text": "Expense Reimbursement Policy This document outlines the company's policy for reimbursing employee business expenses incurred while performing official duties. 1. Eligible Expenses Eligible expenses include business travel (flights, trains, taxis), accommodation, client meals up to 25 JOD per person, conference and training fees pre-approved by a manager, and office supplies purchased for remote work setup up to 100 JOD per year. 2. Submission Process Expense claims must be submitted through the finance portal within 30 days of the expense being incurred, with original receipts attached. Claims submitted after 30 days require VP approval and may be rejected. 3. Reimbursement Timeline Approved expenses are reimbursed within 10 business days via the employee's registered bank account. Expenses paid on the company credit card do not require reimbursement but must still be reported with receipts. 4. Travel Class Policy"
+  },
+  {
+    "chunk_id": "Expense_Reimbursement_Policy.pdf::2",
+    "document_name": "Expense_Reimbursement_Policy.pdf",
+    "page_number": 2,
+    "chunk_number": 2,
+    "text": "Economy class is standard for flights under 5 hours. Business class is permitted for flights over 5 hours when pre-approved by a Director or above."
+  },
+  {
+    "chunk_id": "HR_Policy.txt::1",
+    "document_name": "HR_Policy.txt",
+    "page_number": null,
+    "chunk_number": 1,
+    "text": "HR POLICY DOCUMENT Section 1: Recruitment and Onboarding All new employees undergo a structured 5-day onboarding program covering company culture, tools, security training, and role-specific shadowing. A 90-day probation period applies to all new hires. Section 2: Compensation and Benefits Salaries are reviewed annually in Q1. Employees are eligible for a performance-based bonus of up to 15% of annual base salary. The company provides private health insurance covering the employee and up to 3 dependents. Section 3: Employee Benefits Summary Benefits include: private health insurance, annual leave (14 days), sick leave (10 days), maternity leave (70 days), paternity leave (3 days), a yearly training budget of 500 JOD per employee, and a transportation allowance of 50 JOD/month. Section 4: Termination and Resignation Employees must provide 30 days written notice to resign. The company may terminate employment with cause immediately or without cause with 30 days notice or payment in lieu of notice. Section 5: Code of Conduct Employees are expected to act with integrity, avoid conflicts of interest, and report any violations of the code of conduct to HR or via the anonymous ethics hotline."
+  },
+  {
+    "chunk_id": "IT_Security_Policy.docx::1",
+    "document_name": "IT_Security_Policy.docx",
+    "page_number": null,
+    "chunk_number": 1,
+    "text": "IT Security Policy 1. Password Requirements All company accounts require passwords of at least 12 characters, including uppercase, lowercase, numbers, and a special character. Passwords must be changed every 90 days and may not be reused for the last 5 password cycles. 2. Multi-Factor Authentication Multi-factor authentication (MFA) is mandatory for all systems that store customer data, including email, VPN, and cloud infrastructure consoles. 3. Device Security Company laptops must have full-disk encryption enabled and an approved endpoint protection agent installed before being granted network access. Personal devices used for work (BYOD) must be enrolled in the mobile device management (MDM) system. 4. Data Classification Data is classified as Public, Internal, Confidential, or Restricted. Confidential and Restricted data may not be stored on personal devices or shared outside the company without written approval from the Data Protection Officer. 5. Incident Reporting Any suspected security incident, including phishing emails or lost devices, must be reported to the security team within 1 hour of discovery via the #security-incidents channel or security@company.com."
+  }
+]
