@@ -1,0 +1,27 @@
+Summary,Description,Assignee,Priority,Due Date,Story Points,Status,Component
+"Set up repo & Git Flow","Initialize GitHub repo, configure main/develop branches, branch protection rules, PR template",Member 4,High,Day 1,2,Done,DevOps
+"Implement document loader","Support loading PDF/DOCX/TXT/MD/CSV with metadata extraction and content hashing for change detection",Member 1,High,Day 1,5,Done,Knowledge Base
+"Implement chunker","Paragraph-aware chunking with configurable size/overlap; attach document/page/chunk metadata",Member 1,High,Day 1,5,Done,Knowledge Base
+"Implement document summarizer (bonus)","Extractive + Gemini-based summarization during indexing",Member 1,Medium,Day 2,3,Done,Knowledge Base
+"Implement incremental indexing","Detect new/changed documents via hash; avoid full index rebuild",Member 1,High,Day 2,5,Done,Knowledge Base
+"Implement embeddings module","TF-IDF offline embedder + pluggable Gemini embeddings backend",Member 2,High,Day 2,5,Done,Retrieval
+"Implement vector store","Persistent numpy/JSON-based vector store with save/load",Member 2,High,Day 2,5,Done,Retrieval
+"Implement BM25 keyword index (bonus)","Dependency-free BM25 implementation for keyword search",Member 2,Medium,Day 3,3,Done,Retrieval
+"Implement hybrid search (bonus)","Fuse semantic + BM25 scores, Top-K, de-duplication",Member 2,High,Day 3,5,Done,Retrieval
+"Implement context builder","Word-budgeted context assembly to avoid oversized prompts",Member 2,Medium,Day 3,2,Done,Retrieval
+"Implement query rewriter","Rewrite short/ambiguous queries into full search queries; document approach",Member 2,High,Day 2,5,Done,Retrieval
+"Implement multi-query retrieval (bonus)","Generate alternative query phrasings to broaden recall",Member 2,Low,Day 4,2,Done,Retrieval
+"Design system prompt","Author strict system instruction: context-only answers, no hallucination, structured output",Member 3,High,Day 2,3,Done,Prompt Engineering
+"Integrate Gemini generation","Call Gemini for answer generation with offline fallback",Member 3,High,Day 3,5,Done,Prompt Engineering
+"Implement response validator","Groundedness, relevance, hallucination and citation checks; regenerate/reject logic",Member 3,High,Day 3,5,Done,Prompt Engineering
+"Implement confidence scoring (bonus)","Combine retrieval quality + groundedness into a confidence score",Member 3,Medium,Day 4,3,Done,Prompt Engineering
+"Implement conversation memory","Multi-turn memory, follow-up reference resolution",Member 3,High,Day 4,5,Done,Prompt Engineering
+"Implement retrieval-vs-memory agent (bonus)","Simple agent decides if a question needs retrieval or memory-only",Member 3,Low,Day 5,3,Done,Prompt Engineering
+"Build sample knowledge base","Create sample PDF/DOCX/TXT/MD/CSV documents covering HR/IT policies",Member 4,Medium,Day 2,2,Done,Evaluation
+"Write 25+ evaluation questions","Author evaluation set with expected answers and expected sources",Member 4,High,Day 4,5,Done,Evaluation
+"Implement evaluation runner","Score retrieval correctness, groundedness, confidence per question",Member 4,High,Day 4,5,Done,Evaluation
+"Automatic evaluation report generation (bonus)","Auto-generate Markdown/JSON/CSV evaluation report",Member 4,Medium,Day 5,3,Done,Evaluation
+"Implement conversation export","Export chat sessions to Markdown and TXT",Member 4,Medium,Day 5,2,Done,Evaluation
+"Write README & architecture diagram","Document setup, usage, architecture, team responsibilities",Member 4,High,Day 5,3,Done,Evaluation
+"Final integration & smoke test","End-to-end test of indexing, ask, chat, evaluate commands",Member 4,High,Day 6,5,Done,Evaluation
+"Code review pass","Cross-review all PRs, ensure clean commit history",All Members,High,Day 6,3,Done,DevOps
