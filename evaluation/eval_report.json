@@ -1,0 +1,515 @@
+[
+  {
+    "id": "Q01",
+    "question": "How many annual leave days do employees get?",
+    "expected_answer": "14 annual leave days per year, accrued monthly.",
+    "actual_answer": "Based on the available documents:\n- # Employee Handbook ## Annual Leave and Vacation Policy Employees receive 14 annual leave days per calendar year, accrued monthly at a rate of 1.17 days per month.\n- Benefit: Health Insurance | Eligibility: All full-time employees | Details: Covers employee and up to 3 dependents; includes dental Benefit: Annual Leave | Eligibility: All full-time employees | Details: 14 days per year accrued monthly Benefit: Sick Leave | Eligibility: All full-time employees | Details: 10 paid days per year; medical certificate required after 2 days Benefit: Maternity Leave | Eligibility: Female employees | Details: 70 days fully paid Benefit: Paternity Leave | Eligibility: Male employees | Details: 3 days paid within one month of birth Benefit: Training Budget | Eligibility: All employees after probation | Details: 500 JOD per year for courses and certifications Benefit: Transportation Allowance | Eligibility: All employees | Details: 50 JOD per month Benefit: Remote Work | Eligibility: All employees | Details: Up to 2 days per week with manager approval Benefit: Performance Bonus | Eligibility: All employees | Details: Up to 15% of annual base salary based on performance review\n- Unused leave may be carried over to the next year up to a maximum of 5 days.\n- Leave requests must be submitted through the HR portal at least 5 working days in advance and require manager approval.\n- ## Sick Leave Employees are entitled to 10 paid sick days per year.\n\nSources: Employee_Handbook.md, Benefits_Overview.csv",
+    "expected_sources": [
+      "Benefits_Overview.csv",
+      "Employee_Handbook.md",
+      "HR_Policy.txt"
+    ],
+    "actual_sources": [
+      "Benefits_Overview.csv",
+      "Employee_Handbook.md"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 81.7,
+    "overall_score": 96.3
+  },
+  {
+    "id": "Q02",
+    "question": "Vacation",
+    "expected_answer": "Employees receive 14 annual leave days per year.",
+    "actual_answer": "Based on the available documents:\n- # Employee Handbook ## Annual Leave and Vacation Policy Employees receive 14 annual leave days per calendar year, accrued monthly at a rate of 1.17 days per month.\n- Section 3: Employee Benefits Summary Benefits include: private health insurance, annual leave (14 days), sick leave (10 days), maternity leave (70 days), paternity leave (3 days), a yearly training budget of 500 JOD per employee, and a transportation allowance of 50 JOD/month.\n- Leave requests must be submitted through the HR portal at least 5 working days in advance and require manager approval.\n- ## Maternity and Paternity Leave Female employees are entitled to 70 days of fully paid maternity leave.\n- Unused leave may be carried over to the next year up to a maximum of 5 days.\n\nSources: Employee_Handbook.md, HR_Policy.txt",
+    "expected_sources": [
+      "Employee_Handbook.md"
+    ],
+    "actual_sources": [
+      "Employee_Handbook.md",
+      "HR_Policy.txt"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 79.2,
+    "overall_score": 95.8
+  },
+  {
+    "id": "Q03",
+    "question": "How many sick days are employees entitled to?",
+    "expected_answer": "10 paid sick days per year, with a medical certificate required beyond 2 consecutive days.",
+    "actual_answer": "Based on the available documents:\n- ## Sick Leave Employees are entitled to 10 paid sick days per year.\n- ## Maternity and Paternity Leave Female employees are entitled to 70 days of fully paid maternity leave.\n- Male employees are entitled to 3 days of paid paternity leave, to be taken within one month of the child's birth.\n- Section 3: Employee Benefits Summary Benefits include: private health insurance, annual leave (14 days), sick leave (10 days), maternity leave (70 days), paternity leave (3 days), a yearly training budget of 500 JOD per employee, and a transportation allowance of 50 JOD/month.\n- # Employee Handbook ## Annual Leave and Vacation Policy Employees receive 14 annual leave days per calendar year, accrued monthly at a rate of 1.17 days per month.\n\nSources: Employee_Handbook.md, HR_Policy.txt",
+    "expected_sources": [
+      "Benefits_Overview.csv",
+      "Employee_Handbook.md"
+    ],
+    "actual_sources": [
+      "Employee_Handbook.md",
+      "HR_Policy.txt"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 75.8,
+    "overall_score": 95.2
+  },
+  {
+    "id": "Q04",
+    "question": "What is the maternity leave policy?",
+    "expected_answer": "Female employees receive 70 days of fully paid maternity leave.",
+    "actual_answer": "Based on the available documents:\n- ## Maternity and Paternity Leave Female employees are entitled to 70 days of fully paid maternity leave.\n- Section 3: Employee Benefits Summary Benefits include: private health insurance, annual leave (14 days), sick leave (10 days), maternity leave (70 days), paternity leave (3 days), a yearly training budget of 500 JOD per employee, and a transportation allowance of 50 JOD/month.\n- # Employee Handbook ## Annual Leave and Vacation Policy Employees receive 14 annual leave days per calendar year, accrued monthly at a rate of 1.17 days per month.\n- Unused leave may be carried over to the next year up to a maximum of 5 days.\n- Leave requests must be submitted through the HR portal at least 5 working days in advance and require manager approval.\n\nSources: Employee_Handbook.md, HR_Policy.txt",
+    "expected_sources": [
+      "Benefits_Overview.csv",
+      "Employee_Handbook.md",
+      "HR_Policy.txt"
+    ],
+    "actual_sources": [
+      "Employee_Handbook.md",
+      "HR_Policy.txt"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 78.7,
+    "overall_score": 95.7
+  },
+  {
+    "id": "Q05",
+    "question": "What is the paternity leave policy?",
+    "expected_answer": "Male employees receive 3 days of paid paternity leave within one month of the child's birth.",
+    "actual_answer": "Based on the available documents:\n- ## Maternity and Paternity Leave Female employees are entitled to 70 days of fully paid maternity leave.\n- Male employees are entitled to 3 days of paid paternity leave, to be taken within one month of the child's birth.\n- Section 3: Employee Benefits Summary Benefits include: private health insurance, annual leave (14 days), sick leave (10 days), maternity leave (70 days), paternity leave (3 days), a yearly training budget of 500 JOD per employee, and a transportation allowance of 50 JOD/month.\n- # Employee Handbook ## Annual Leave and Vacation Policy Employees receive 14 annual leave days per calendar year, accrued monthly at a rate of 1.17 days per month.\n- Unused leave may be carried over to the next year up to a maximum of 5 days.\n\nSources: Employee_Handbook.md, HR_Policy.txt",
+    "expected_sources": [
+      "Benefits_Overview.csv",
+      "Employee_Handbook.md"
+    ],
+    "actual_sources": [
+      "Employee_Handbook.md",
+      "HR_Policy.txt"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 78.7,
+    "overall_score": 95.7
+  },
+  {
+    "id": "Q06",
+    "question": "Can employees carry over unused leave to the next year?",
+    "expected_answer": "Yes, up to a maximum of 5 days can be carried over.",
+    "actual_answer": "Based on the available documents:\n- Unused leave may be carried over to the next year up to a maximum of 5 days.\n- # Employee Handbook ## Annual Leave and Vacation Policy Employees receive 14 annual leave days per calendar year, accrued monthly at a rate of 1.17 days per month.\n- ## Sick Leave Employees are entitled to 10 paid sick days per year.\n- Benefit: Health Insurance | Eligibility: All full-time employees | Details: Covers employee and up to 3 dependents; includes dental Benefit: Annual Leave | Eligibility: All full-time employees | Details: 14 days per year accrued monthly Benefit: Sick Leave | Eligibility: All full-time employees | Details: 10 paid days per year; medical certificate required after 2 days Benefit: Maternity Leave | Eligibility: Female employees | Details: 70 days fully paid Benefit: Paternity Leave | Eligibility: Male employees | Details: 3 days paid within one month of birth Benefit: Training Budget | Eligibility: All employees after probation | Details: 500 JOD per year for courses and certifications Benefit: Transportation Allowance | Eligibility: All employees | Details: 50 JOD per month Benefit: Remote Work | Eligibility: All employees | Details: Up to 2 days per week with manager approval Benefit: Performance Bonus | Eligibility: All employees | Details: Up to 15% of annual base salary based on performance review\n- Leave requests must be submitted through the HR portal at least 5 working days in advance and require manager approval.\n\nSources: Employee_Handbook.md, Benefits_Overview.csv",
+    "expected_sources": [
+      "Employee_Handbook.md"
+    ],
+    "actual_sources": [
+      "Benefits_Overview.csv",
+      "Employee_Handbook.md"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 75.5,
+    "overall_score": 95.1
+  },
+  {
+    "id": "Q07",
+    "question": "How far in advance must a leave request be submitted?",
+    "expected_answer": "At least 5 working days in advance, with manager approval.",
+    "actual_answer": "Based on the available documents:\n- Leave requests must be submitted through the HR portal at least 5 working days in advance and require manager approval.\n- Submission Process Expense claims must be submitted through the finance portal within 30 days of the expense being incurred, with original receipts attached.\n- # Employee Handbook ## Annual Leave and Vacation Policy Employees receive 14 annual leave days per calendar year, accrued monthly at a rate of 1.17 days per month.\n- Unused leave may be carried over to the next year up to a maximum of 5 days.\n- ## Sick Leave Employees are entitled to 10 paid sick days per year.\n\nSources: Employee_Handbook.md, Expense_Reimbursement_Policy.pdf (p.1)",
+    "expected_sources": [
+      "Employee_Handbook.md"
+    ],
+    "actual_sources": [
+      "Employee_Handbook.md",
+      "Expense_Reimbursement_Policy.pdf"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 76.1,
+    "overall_score": 95.2
+  },
+  {
+    "id": "Q08",
+    "question": "How many days per week can employees work remotely?",
+    "expected_answer": "Up to 2 days per week, subject to manager approval.",
+    "actual_answer": "Based on the available documents:\n- ## Remote Work Policy Employees may work remotely up to 2 days per week, subject to manager approval and team coverage requirements.\n- Benefit: Health Insurance | Eligibility: All full-time employees | Details: Covers employee and up to 3 dependents; includes dental Benefit: Annual Leave | Eligibility: All full-time employees | Details: 14 days per year accrued monthly Benefit: Sick Leave | Eligibility: All full-time employees | Details: 10 paid days per year; medical certificate required after 2 days Benefit: Maternity Leave | Eligibility: Female employees | Details: 70 days fully paid Benefit: Paternity Leave | Eligibility: Male employees | Details: 3 days paid within one month of birth Benefit: Training Budget | Eligibility: All employees after probation | Details: 500 JOD per year for courses and certifications Benefit: Transportation Allowance | Eligibility: All employees | Details: 50 JOD per month Benefit: Remote Work | Eligibility: All employees | Details: Up to 2 days per week with manager approval Benefit: Performance Bonus | Eligibility: All employees | Details: Up to 15% of annual base salary based on performance review\n- # Employee Handbook ## Annual Leave and Vacation Policy Employees receive 14 annual leave days per calendar year, accrued monthly at a rate of 1.17 days per month.\n- ## Sick Leave Employees are entitled to 10 paid sick days per year.\n- ## Overtime Policy Overtime is compensated at 1.5x the regular hourly rate for hours worked beyond the standard 40-hour work week.\n\nSources: Employee_Handbook.md, Benefits_Overview.csv",
+    "expected_sources": [
+      "Benefits_Overview.csv",
+      "Employee_Handbook.md"
+    ],
+    "actual_sources": [
+      "Benefits_Overview.csv",
+      "Employee_Handbook.md"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 74.7,
+    "overall_score": 94.9
+  },
+  {
+    "id": "Q09",
+    "question": "What approval is required for a fully remote arrangement?",
+    "expected_answer": "VP-level sign-off is required for fully remote arrangements.",
+    "actual_answer": "Based on the available documents:\n- Benefit: Health Insurance | Eligibility: All full-time employees | Details: Covers employee and up to 3 dependents; includes dental Benefit: Annual Leave | Eligibility: All full-time employees | Details: 14 days per year accrued monthly Benefit: Sick Leave | Eligibility: All full-time employees | Details: 10 paid days per year; medical certificate required after 2 days Benefit: Maternity Leave | Eligibility: Female employees | Details: 70 days fully paid Benefit: Paternity Leave | Eligibility: Male employees | Details: 3 days paid within one month of birth Benefit: Training Budget | Eligibility: All employees after probation | Details: 500 JOD per year for courses and certifications Benefit: Transportation Allowance | Eligibility: All employees | Details: 50 JOD per month Benefit: Remote Work | Eligibility: All employees | Details: Up to 2 days per week with manager approval Benefit: Performance Bonus | Eligibility: All employees | Details: Up to 15% of annual base salary based on performance review\n- ## Remote Work Policy Employees may work remotely up to 2 days per week, subject to manager approval and team coverage requirements.\n- Fully remote arrangements require VP-level sign-off.\n- Leave requests must be submitted through the HR portal at least 5 working days in advance and require manager approval.\n- A medical certificate is required for absences longer than 2 consecutive days.\n\nSources: Benefits_Overview.csv, Employee_Handbook.md",
+    "expected_sources": [
+      "Employee_Handbook.md"
+    ],
+    "actual_sources": [
+      "Benefits_Overview.csv",
+      "Employee_Handbook.md"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 74.2,
+    "overall_score": 94.8
+  },
+  {
+    "id": "Q10",
+    "question": "What are the standard working hours?",
+    "expected_answer": "9:00 AM to 5:00 PM, Sunday to Thursday, with a one-hour lunch break.",
+    "actual_answer": "Based on the available documents:\n- ## Working Hours Standard working hours are 9:00 AM to 5:00 PM, Sunday to Thursday, with a one-hour lunch break.\n- ## Overtime Policy Overtime is compensated at 1.5x the regular hourly rate for hours worked beyond the standard 40-hour work week.\n- Economy class is standard for flights under 5 hours.\n- Leave requests must be submitted through the HR portal at least 5 working days in advance and require manager approval.\n- Business class is permitted for flights over 5 hours when pre-approved by a Director or above.\n\nSources: Employee_Handbook.md, Expense_Reimbursement_Policy.pdf (p.2)",
+    "expected_sources": [
+      "Employee_Handbook.md"
+    ],
+    "actual_sources": [
+      "Employee_Handbook.md",
+      "Expense_Reimbursement_Policy.pdf"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 72.9,
+    "overall_score": 94.6
+  },
+  {
+    "id": "Q11",
+    "question": "How is overtime compensated?",
+    "expected_answer": "Overtime is paid at 1.5x the regular hourly rate for hours beyond the standard 40-hour week.",
+    "actual_answer": "Based on the available documents:\n- ## Overtime Policy Overtime is compensated at 1.5x the regular hourly rate for hours worked beyond the standard 40-hour work week.\n- Overtime must be pre-approved by a direct manager.\n\nSources: Employee_Handbook.md",
+    "expected_sources": [
+      "Employee_Handbook.md"
+    ],
+    "actual_sources": [
+      "Employee_Handbook.md"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 63.6,
+    "overall_score": 92.7
+  },
+  {
+    "id": "Q12",
+    "question": "How long is the onboarding program for new employees?",
+    "expected_answer": "A structured 5-day onboarding program.",
+    "actual_answer": "Based on the available documents:\n- HR POLICY DOCUMENT Section 1: Recruitment and Onboarding All new employees undergo a structured 5-day onboarding program covering company culture, tools, security training, and role-specific shadowing.\n- A 90-day probation period applies to all new hires.\n\nSources: HR_Policy.txt",
+    "expected_sources": [
+      "HR_Policy.txt"
+    ],
+    "actual_sources": [
+      "HR_Policy.txt"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 71.4,
+    "overall_score": 94.3
+  },
+  {
+    "id": "Q13",
+    "question": "How long is the probation period for new hires?",
+    "expected_answer": "A 90-day probation period applies to all new hires.",
+    "actual_answer": "Based on the available documents:\n- A 90-day probation period applies to all new hires.\n- HR POLICY DOCUMENT Section 1: Recruitment and Onboarding All new employees undergo a structured 5-day onboarding program covering company culture, tools, security training, and role-specific shadowing.\n\nSources: HR_Policy.txt",
+    "expected_sources": [
+      "HR_Policy.txt"
+    ],
+    "actual_sources": [
+      "HR_Policy.txt"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 68.8,
+    "overall_score": 93.8
+  },
+  {
+    "id": "Q14",
+    "question": "What is the maximum performance bonus an employee can earn?",
+    "expected_answer": "Up to 15% of annual base salary.",
+    "actual_answer": "Based on the available documents:\n- Employees are eligible for a performance-based bonus of up to 15% of annual base salary.\n- Unused leave may be carried over to the next year up to a maximum of 5 days.\n\nSources: HR_Policy.txt, Employee_Handbook.md",
+    "expected_sources": [
+      "Benefits_Overview.csv",
+      "HR_Policy.txt"
+    ],
+    "actual_sources": [
+      "Employee_Handbook.md",
+      "HR_Policy.txt"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 83.3,
+    "overall_score": 96.7
+  },
+  {
+    "id": "Q15",
+    "question": "How many dependents does the health insurance cover?",
+    "expected_answer": "The employee plus up to 3 dependents.",
+    "actual_answer": "Based on the available documents:\n- The company provides private health insurance covering the employee and up to 3 dependents.\n- Benefit: Health Insurance | Eligibility: All full-time employees | Details: Covers employee and up to 3 dependents; includes dental Benefit: Annual Leave | Eligibility: All full-time employees | Details: 14 days per year accrued monthly Benefit: Sick Leave | Eligibility: All full-time employees | Details: 10 paid days per year; medical certificate required after 2 days Benefit: Maternity Leave | Eligibility: Female employees | Details: 70 days fully paid Benefit: Paternity Leave | Eligibility: Male employees | Details: 3 days paid within one month of birth Benefit: Training Budget | Eligibility: All employees after probation | Details: 500 JOD per year for courses and certifications Benefit: Transportation Allowance | Eligibility: All employees | Details: 50 JOD per month Benefit: Remote Work | Eligibility: All employees | Details: Up to 2 days per week with manager approval Benefit: Performance Bonus | Eligibility: All employees | Details: Up to 15% of annual base salary based on performance review\n- Section 3: Employee Benefits Summary Benefits include: private health insurance, annual leave (14 days), sick leave (10 days), maternity leave (70 days), paternity leave (3 days), a yearly training budget of 500 JOD per employee, and a transportation allowance of 50 JOD/month.\n\nSources: HR_Policy.txt, Benefits_Overview.csv",
+    "expected_sources": [
+      "Benefits_Overview.csv",
+      "HR_Policy.txt"
+    ],
+    "actual_sources": [
+      "Benefits_Overview.csv",
+      "HR_Policy.txt"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 70.3,
+    "overall_score": 94.1
+  },
+  {
+    "id": "Q16",
+    "question": "How much notice must an employee give to resign?",
+    "expected_answer": "30 days written notice.",
+    "actual_answer": "Based on the available documents:\n- Section 4: Termination and Resignation Employees must provide 30 days written notice to resign.\n- The company may terminate employment with cause immediately or without cause with 30 days notice or payment in lieu of notice.\n- Passwords must be changed every 90 days and may not be reused for the last 5 password cycles.\n- Device Security Company laptops must have full-disk encryption enabled and an approved endpoint protection agent installed before being granted network access.\n- Personal devices used for work (BYOD) must be enrolled in the mobile device management (MDM) system.\n\nSources: HR_Policy.txt, IT_Security_Policy.docx",
+    "expected_sources": [
+      "HR_Policy.txt"
+    ],
+    "actual_sources": [
+      "HR_Policy.txt",
+      "IT_Security_Policy.docx"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 69.4,
+    "overall_score": 93.9
+  },
+  {
+    "id": "Q17",
+    "question": "What is the yearly training budget per employee?",
+    "expected_answer": "500 JOD per employee per year.",
+    "actual_answer": "Based on the available documents:\n- Section 3: Employee Benefits Summary Benefits include: private health insurance, annual leave (14 days), sick leave (10 days), maternity leave (70 days), paternity leave (3 days), a yearly training budget of 500 JOD per employee, and a transportation allowance of 50 JOD/month.\n- HR POLICY DOCUMENT Section 1: Recruitment and Onboarding All new employees undergo a structured 5-day onboarding program covering company culture, tools, security training, and role-specific shadowing.\n- # Employee Handbook ## Annual Leave and Vacation Policy Employees receive 14 annual leave days per calendar year, accrued monthly at a rate of 1.17 days per month.\n- ## Sick Leave Employees are entitled to 10 paid sick days per year.\n- ## Remote Work Policy Employees may work remotely up to 2 days per week, subject to manager approval and team coverage requirements.\n\nSources: HR_Policy.txt, Employee_Handbook.md",
+    "expected_sources": [
+      "Benefits_Overview.csv",
+      "HR_Policy.txt"
+    ],
+    "actual_sources": [
+      "Employee_Handbook.md",
+      "HR_Policy.txt"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 76.5,
+    "overall_score": 95.3
+  },
+  {
+    "id": "Q18",
+    "question": "What is the monthly transportation allowance?",
+    "expected_answer": "50 JOD per month.",
+    "actual_answer": "Based on the available documents:\n- Benefit: Health Insurance | Eligibility: All full-time employees | Details: Covers employee and up to 3 dependents; includes dental Benefit: Annual Leave | Eligibility: All full-time employees | Details: 14 days per year accrued monthly Benefit: Sick Leave | Eligibility: All full-time employees | Details: 10 paid days per year; medical certificate required after 2 days Benefit: Maternity Leave | Eligibility: Female employees | Details: 70 days fully paid Benefit: Paternity Leave | Eligibility: Male employees | Details: 3 days paid within one month of birth Benefit: Training Budget | Eligibility: All employees after probation | Details: 500 JOD per year for courses and certifications Benefit: Transportation Allowance | Eligibility: All employees | Details: 50 JOD per month Benefit: Remote Work | Eligibility: All employees | Details: Up to 2 days per week with manager approval Benefit: Performance Bonus | Eligibility: All employees | Details: Up to 15% of annual base salary based on performance review\n- Section 3: Employee Benefits Summary Benefits include: private health insurance, annual leave (14 days), sick leave (10 days), maternity leave (70 days), paternity leave (3 days), a yearly training budget of 500 JOD per employee, and a transportation allowance of 50 JOD/month.\n\nSources: Benefits_Overview.csv, HR_Policy.txt",
+    "expected_sources": [
+      "Benefits_Overview.csv",
+      "HR_Policy.txt"
+    ],
+    "actual_sources": [
+      "Benefits_Overview.csv",
+      "HR_Policy.txt"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 79.5,
+    "overall_score": 95.9
+  },
+  {
+    "id": "Q19",
+    "question": "What is the minimum password length required by the security policy?",
+    "expected_answer": "At least 12 characters, including uppercase, lowercase, numbers, and a special character.",
+    "actual_answer": "Based on the available documents:\n- IT Security Policy 1.\n- Password Requirements All company accounts require passwords of at least 12 characters, including uppercase, lowercase, numbers, and a special character.\n- Passwords must be changed every 90 days and may not be reused for the last 5 password cycles.\n- Device Security Company laptops must have full-disk encryption enabled and an approved endpoint protection agent installed before being granted network access.\n- Incident Reporting Any suspected security incident, including phishing emails or lost devices, must be reported to the security team within 1 hour of discovery via the #security-incidents channel or security@company.com.\n\nSources: IT_Security_Policy.docx",
+    "expected_sources": [
+      "IT_Security_Policy.docx"
+    ],
+    "actual_sources": [
+      "IT_Security_Policy.docx"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 78.4,
+    "overall_score": 95.7
+  },
+  {
+    "id": "Q20",
+    "question": "How often must passwords be changed?",
+    "expected_answer": "Every 90 days, and cannot reuse the last 5 passwords.",
+    "actual_answer": "Based on the available documents:\n- Passwords must be changed every 90 days and may not be reused for the last 5 password cycles.\n- Password Requirements All company accounts require passwords of at least 12 characters, including uppercase, lowercase, numbers, and a special character.\n- Device Security Company laptops must have full-disk encryption enabled and an approved endpoint protection agent installed before being granted network access.\n- Personal devices used for work (BYOD) must be enrolled in the mobile device management (MDM) system.\n- Incident Reporting Any suspected security incident, including phishing emails or lost devices, must be reported to the security team within 1 hour of discovery via the #security-incidents channel or security@company.com.\n\nSources: IT_Security_Policy.docx",
+    "expected_sources": [
+      "IT_Security_Policy.docx"
+    ],
+    "actual_sources": [
+      "IT_Security_Policy.docx"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 66.0,
+    "overall_score": 93.2
+  },
+  {
+    "id": "Q21",
+    "question": "Is multi-factor authentication mandatory?",
+    "expected_answer": "Yes, MFA is mandatory for systems storing customer data, including email, VPN, and cloud consoles.",
+    "actual_answer": "Based on the available documents:\n- Multi-Factor Authentication Multi-factor authentication (MFA) is mandatory for all systems that store customer data, including email, VPN, and cloud infrastructure consoles.\n\nSources: IT_Security_Policy.docx",
+    "expected_sources": [
+      "IT_Security_Policy.docx"
+    ],
+    "actual_sources": [
+      "IT_Security_Policy.docx"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 62.0,
+    "overall_score": 92.4
+  },
+  {
+    "id": "Q22",
+    "question": "What is required before a personal device can be used for work?",
+    "expected_answer": "Personal devices (BYOD) must be enrolled in the mobile device management (MDM) system.",
+    "actual_answer": "Based on the available documents:\n- Personal devices used for work (BYOD) must be enrolled in the mobile device management (MDM) system.\n- Device Security Company laptops must have full-disk encryption enabled and an approved endpoint protection agent installed before being granted network access.\n- Confidential and Restricted data may not be stored on personal devices or shared outside the company without written approval from the Data Protection Officer.\n- A medical certificate is required for absences longer than 2 consecutive days.\n- ## Remote Work Policy Employees may work remotely up to 2 days per week, subject to manager approval and team coverage requirements.\n\nSources: IT_Security_Policy.docx, Employee_Handbook.md",
+    "expected_sources": [
+      "IT_Security_Policy.docx"
+    ],
+    "actual_sources": [
+      "Employee_Handbook.md",
+      "IT_Security_Policy.docx"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 69.5,
+    "overall_score": 93.9
+  },
+  {
+    "id": "Q23",
+    "question": "How quickly must a security incident be reported?",
+    "expected_answer": "Within 1 hour of discovery.",
+    "actual_answer": "Based on the available documents:\n- Incident Reporting Any suspected security incident, including phishing emails or lost devices, must be reported to the security team within 1 hour of discovery via the #security-incidents channel or security@company.com.\n- Device Security Company laptops must have full-disk encryption enabled and an approved endpoint protection agent installed before being granted network access.\n- Expenses paid on the company credit card do not require reimbursement but must still be reported with receipts.\n- IT Security Policy 1.\n- Passwords must be changed every 90 days and may not be reused for the last 5 password cycles.\n\nSources: IT_Security_Policy.docx, Expense_Reimbursement_Policy.pdf (p.1)",
+    "expected_sources": [
+      "IT_Security_Policy.docx"
+    ],
+    "actual_sources": [
+      "Expense_Reimbursement_Policy.pdf",
+      "IT_Security_Policy.docx"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 70.8,
+    "overall_score": 94.2
+  },
+  {
+    "id": "Q24",
+    "question": "What are the data classification levels used by the company?",
+    "expected_answer": "Public, Internal, Confidential, and Restricted.",
+    "actual_answer": "Based on the available documents:\n- Data Classification Data is classified as Public, Internal, Confidential, or Restricted.\n- Multi-Factor Authentication Multi-factor authentication (MFA) is mandatory for all systems that store customer data, including email, VPN, and cloud infrastructure consoles.\n- Personal devices used for work (BYOD) must be enrolled in the mobile device management (MDM) system.\n- Confidential and Restricted data may not be stored on personal devices or shared outside the company without written approval from the Data Protection Officer.\n\nSources: IT_Security_Policy.docx",
+    "expected_sources": [
+      "IT_Security_Policy.docx"
+    ],
+    "actual_sources": [
+      "IT_Security_Policy.docx"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 74.8,
+    "overall_score": 95.0
+  },
+  {
+    "id": "Q25",
+    "question": "What is the maximum reimbursement for client meals?",
+    "expected_answer": "Up to 25 JOD per person.",
+    "actual_answer": "Based on the available documents:\n- Eligible Expenses Eligible expenses include business travel (flights, trains, taxis), accommodation, client meals up to 25 JOD per person, conference and training fees pre-approved by a manager, and office supplies purchased for remote work setup up to 100 JOD per year.\n- Expense Reimbursement Policy This document outlines the company's policy for reimbursing employee business expenses incurred while performing official duties.\n- Reimbursement Timeline Approved expenses are reimbursed within 10 business days via the employee's registered bank account.\n- Expenses paid on the company credit card do not require reimbursement but must still be reported with receipts.\n- Unused leave may be carried over to the next year up to a maximum of 5 days.\n\nSources: Expense_Reimbursement_Policy.pdf (p.1), Employee_Handbook.md",
+    "expected_sources": [
+      "Expense_Reimbursement_Policy.pdf"
+    ],
+    "actual_sources": [
+      "Employee_Handbook.md",
+      "Expense_Reimbursement_Policy.pdf"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 70.4,
+    "overall_score": 94.1
+  },
+  {
+    "id": "Q26",
+    "question": "Within how many days must an expense claim be submitted?",
+    "expected_answer": "Within 30 days of the expense being incurred.",
+    "actual_answer": "Based on the available documents:\n- Submission Process Expense claims must be submitted through the finance portal within 30 days of the expense being incurred, with original receipts attached.\n- Claims submitted after 30 days require VP approval and may be rejected.\n- Reimbursement Timeline Approved expenses are reimbursed within 10 business days via the employee's registered bank account.\n- Passwords must be changed every 90 days and may not be reused for the last 5 password cycles.\n- Incident Reporting Any suspected security incident, including phishing emails or lost devices, must be reported to the security team within 1 hour of discovery via the #security-incidents channel or security@company.com.\n\nSources: Expense_Reimbursement_Policy.pdf (p.1), IT_Security_Policy.docx",
+    "expected_sources": [
+      "Expense_Reimbursement_Policy.pdf"
+    ],
+    "actual_sources": [
+      "Expense_Reimbursement_Policy.pdf",
+      "IT_Security_Policy.docx"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 73.1,
+    "overall_score": 94.6
+  },
+  {
+    "id": "Q27",
+    "question": "How long does it take to get reimbursed after approval?",
+    "expected_answer": "Within 10 business days via the employee's registered bank account.",
+    "actual_answer": "Based on the available documents:\n- Claims submitted after 30 days require VP approval and may be rejected.\n- Benefit: Health Insurance | Eligibility: All full-time employees | Details: Covers employee and up to 3 dependents; includes dental Benefit: Annual Leave | Eligibility: All full-time employees | Details: 14 days per year accrued monthly Benefit: Sick Leave | Eligibility: All full-time employees | Details: 10 paid days per year; medical certificate required after 2 days Benefit: Maternity Leave | Eligibility: Female employees | Details: 70 days fully paid Benefit: Paternity Leave | Eligibility: Male employees | Details: 3 days paid within one month of birth Benefit: Training Budget | Eligibility: All employees after probation | Details: 500 JOD per year for courses and certifications Benefit: Transportation Allowance | Eligibility: All employees | Details: 50 JOD per month Benefit: Remote Work | Eligibility: All employees | Details: Up to 2 days per week with manager approval Benefit: Performance Bonus | Eligibility: All employees | Details: Up to 15% of annual base salary based on performance review\n- Reimbursement Timeline Approved expenses are reimbursed within 10 business days via the employee's registered bank account.\n\nSources: Expense_Reimbursement_Policy.pdf (p.1), Benefits_Overview.csv",
+    "expected_sources": [
+      "Expense_Reimbursement_Policy.pdf"
+    ],
+    "actual_sources": [
+      "Benefits_Overview.csv",
+      "Expense_Reimbursement_Policy.pdf"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 72.0,
+    "overall_score": 94.4
+  },
+  {
+    "id": "Q28",
+    "question": "When is business class travel permitted?",
+    "expected_answer": "For flights over 5 hours, when pre-approved by a Director or above.",
+    "actual_answer": "Based on the available documents:\n- Business class is permitted for flights over 5 hours when pre-approved by a Director or above.\n- Eligible Expenses Eligible expenses include business travel (flights, trains, taxis), accommodation, client meals up to 25 JOD per person, conference and training fees pre-approved by a manager, and office supplies purchased for remote work setup up to 100 JOD per year.\n- Travel Class Policy\n- Economy class is standard for flights under 5 hours.\n- Expense Reimbursement Policy This document outlines the company's policy for reimbursing employee business expenses incurred while performing official duties.\n\nSources: Expense_Reimbursement_Policy.pdf (p.2), Expense_Reimbursement_Policy.pdf (p.1)",
+    "expected_sources": [
+      "Expense_Reimbursement_Policy.pdf"
+    ],
+    "actual_sources": [
+      "Expense_Reimbursement_Policy.pdf"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 69.7,
+    "overall_score": 93.9
+  },
+  {
+    "id": "Q29",
+    "question": "What is the company's policy on employee training reimbursement for office supplies?",
+    "expected_answer": "Up to 100 JOD per year for office supplies for remote work setup.",
+    "actual_answer": "Based on the available documents:\n- Eligible Expenses Eligible expenses include business travel (flights, trains, taxis), accommodation, client meals up to 25 JOD per person, conference and training fees pre-approved by a manager, and office supplies purchased for remote work setup up to 100 JOD per year.\n- Expense Reimbursement Policy This document outlines the company's policy for reimbursing employee business expenses incurred while performing official duties.\n- Reimbursement Timeline Approved expenses are reimbursed within 10 business days via the employee's registered bank account.\n- Expenses paid on the company credit card do not require reimbursement but must still be reported with receipts.\n\nSources: Expense_Reimbursement_Policy.pdf (p.1)",
+    "expected_sources": [
+      "Expense_Reimbursement_Policy.pdf"
+    ],
+    "actual_sources": [
+      "Expense_Reimbursement_Policy.pdf"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 70.3,
+    "overall_score": 94.1
+  },
+  {
+    "id": "Q30",
+    "question": "Does the knowledge base mention the company's stock option plan?",
+    "expected_answer": "This information is not available in the knowledge base.",
+    "actual_answer": "I don't have enough information in the knowledge base to answer this specific question.\n\nSources: none",
+    "expected_sources": [],
+    "actual_sources": [
+      "Benefits_Overview.csv",
+      "Employee_Handbook.md",
+      "Expense_Reimbursement_Policy.pdf",
+      "HR_Policy.txt",
+      "IT_Security_Policy.docx"
+    ],
+    "retrieval_correct": true,
+    "answer_grounded": true,
+    "confidence": 77.0,
+    "overall_score": 95.4
+  }
+]
